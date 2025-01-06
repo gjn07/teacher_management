@@ -1,0 +1,82 @@
+.top_lay {
+	background: #990000;
+	padding: 20px 0;
+}
+
+* {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	width: 1020px;
+	line-height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ahref:link {
+	color: rgb(255, 255, 255);
+	TEXT-DECORATION: none;
+}
+
+.ahref:visited {
+	color: rgb(255, 255, 255);
+	TEXT-DECORATION: none;
+}
+
+.ahref:hover {
+	color: rgb(255, 255, 255);
+	TEXT-DECORATION: none;
+}
+
+.ahref:active {
+	color: rgb(255, 255, 255);
+	TEXT-DECORATION: none;
+}
+
+.constaner {
+	background: #990000;
+	border-top: #ab2408 1px solid;
+	height: 52px;
+	line-height: 52px;
+
+}
+
+.nav>div {
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	color: rgb(255, 255, 255);
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+.nav>div:hover {
+	background-color: #990000;
+	color: rgb(255, 255, 255);
+}
+
+.nav>div:hover>div {
+	display: block;
+}
+
+.menu>* {
+	float: left;
+}
+
+.menu>div>ul>li {
+	margin-left: 40px;
+	line-height: 48px;
+}
+
+.menu {
+	width: 146px;
+	background-color: #990000;
+	display: none;
+	position: absolute;
+}

@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<web-app>
+	<servlet>
+		<servlet-name>update_score_prof</servlet-name>
+		<servlet-class>control.UpdateScoreProf</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update_score_prof</servlet-name>
+		<url-pattern>/updateScoreProf</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_score_prof</servlet-name>
+		<servlet-class>control.ShowScoreProf</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_score_prof</servlet-name>
+		<url-pattern>/showScoreProf</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_mission</servlet-name>
+		<servlet-class>control.ShowMission</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_mission</servlet-name>
+		<url-pattern>/showMission</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>update_pass_prize</servlet-name>
+		<servlet-class>control.UpdatePassPrize</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update_pass_prize</servlet-name>
+		<url-pattern>/updatePassPrize</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_prize</servlet-name>
+		<servlet-class>control.ShowPrize</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_prize</servlet-name>
+		<url-pattern>/showPrize</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>insert_prize</servlet-name>
+		<servlet-class>control.InsertPrize</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert_prize</servlet-name>
+		<url-pattern>/insertPrize</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>insert_professor_score_teacher</servlet-name>
+		<servlet-class>control.InsertProfessorScoreTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert_professor_score_teacher</servlet-name>
+		<url-pattern>/insertProfessorScoreTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delete_selected_teacher</servlet-name>
+		<servlet-class>control.DeleteSelectedTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete_selected_teacher</servlet-name>
+		<url-pattern>/deleteSelectedTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delete_selected_professor</servlet-name>
+		<servlet-class>control.DeleteSelectedProfessor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete_selected_professor</servlet-name>
+		<url-pattern>/deleteSelectedProfessor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_selected_professor</servlet-name>
+		<servlet-class>control.ShowSelectedProfessor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_selected_professor</servlet-name>
+		<url-pattern>/showSelectedProfessor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>insert_select_professor</servlet-name>
+		<servlet-class>control.InsertSelectProfessor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert_select_professor</servlet-name>
+		<url-pattern>/insertSelectProfessor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_select_professor</servlet-name>
+		<servlet-class>control.ShowSelectProfessor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_select_professor</servlet-name>
+		<url-pattern>/showSelectProfessor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_selected_teacher</servlet-name>
+		<servlet-class>control.ShowSelectedTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_selected_teacher</servlet-name>
+		<url-pattern>/showSelectedTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>insert_select_teacher</servlet-name>
+		<servlet-class>control.InsertSelectTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert_select_teacher</servlet-name>
+		<url-pattern>/insertSelectTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show_select_teacher</servlet-name>
+		<servlet-class>control.ShowSelectTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_select_teacher</servlet-name>
+		<url-pattern>/showSelectTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>score_query_concrete</servlet-name>
+		<servlet-class>control.QueryScoreConcrete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>score_query_concrete</servlet-name>
+		<url-pattern>/queryScoreConcrete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>score_insert</servlet-name>
+		<servlet-class>control.InsertScore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>score_insert</servlet-name>
+		<url-pattern>/insertScore</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>score_update</servlet-name>
+		<servlet-class>control.UpdateScore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>score_update</servlet-name>
+		<url-pattern>/updateScore</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>score_delete</servlet-name>
+		<servlet-class>control.DeleteScore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>score_delete</servlet-name>
+		<url-pattern>/deleteScore</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>score_query</servlet-name>
+		<servlet-class>control.QueryScore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>score_query</servlet-name>
+		<url-pattern>/queryScore</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_update</servlet-name>
+		<servlet-class>control.UpdateTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_update</servlet-name>
+		<url-pattern>/updateTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_delete</servlet-name>
+		<servlet-class>control.DeleteTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_delete</servlet-name>
+		<url-pattern>/deleteTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_login</servlet-name>
+		<servlet-class>control.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_insert</servlet-name>
+		<servlet-class>control.InsertTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_insert</servlet-name>
+		<url-pattern>/insertTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_query</servlet-name>
+		<servlet-class>control.QueryTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_query</servlet-name>
+		<url-pattern>/queryTeacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_management</servlet-name>
+		<servlet-class>control.Management</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_management</servlet-name>
+		<url-pattern>/teacher_management</url-pattern>
+	</servlet-mapping>
+</web-app>

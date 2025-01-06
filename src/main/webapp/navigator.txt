@@ -1,0 +1,90 @@
+<title>教学质量考核管理系统</title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<div class="top_lay">
+<img src="image/logo.png" width="524" height="102" border="0" alt="河南应用技术职业学院" title="河南应用技术职业学院"></img>
+</div>
+	<div class="constaner">
+		<div class="nav">
+			<div>
+				<a href="index.jsp" class="ahref">首页</a>
+			</div>
+			<div class="hometage">
+				教师信息管理
+				<div class="menu">
+					<div>
+						
+					</div>
+					<div>
+						<ul>
+							<a href="insertTeacher.jsp" class="ahref">添加教师信息</a>
+							<br><a href="deleteTeacher.jsp" class="ahref">删除教师信息</a>
+							<br><a href="updateTeacher.jsp" class="ahref">更改教师信息</a>
+							<br><a href="queryTeacher" class="ahref">查询教师信息</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				教师量化管理
+				<div class="menu">
+					<div>
+						
+					</div>
+					<div>
+						<ul>
+							<a href="insertScore.jsp" class="ahref">添加教师分数</a>
+							<br><a href="deleteScore.jsp" class="ahref">删除教师分数</a>
+							<br><a href="updateScore.jsp" class="ahref">更改教师分数</a>
+							<br><a href="queryScore" class="ahref">查询教师分数</a>
+							<br><a href="showScoreConcrete.jsp" class="ahref">查询教师详细分数</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				教师教学质量考核
+				<div class="menu">
+					<div>
+						
+					</div>
+					<div>
+						<ul>
+							<a href="showSelectTeacher" class="ahref">选择考核教师</a>
+							<br><a href="showSelectedTeacher" class="ahref">查看&删除考核教师</a>
+							<br><a href="showSelectProfessor" class="ahref">选择考核专家</a>
+							<br><a href="showSelectedProfessor" class="ahref">查看&删除考核专家</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				专家评审打分处理
+				<div class="menu">
+					<div>
+						
+					</div>
+					<div>
+						<ul>
+							<a href="showMission" class="ahref">专家评审考核分数</a>
+							<br><a href="showScoreProf" class="ahref">查看教师考核分数</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				教师获奖处理
+				<div class="menu">
+					<div>
+						
+					</div>
+					<div>
+						<ul>
+							<a href="insertPrize.jsp" class="ahref">教师获奖申报</a>
+							<br><a href="showPrize" class="ahref">教师申报审核</a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
