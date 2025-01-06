@@ -1,5 +1,5 @@
 .top_lay {
-	background: #990000;
+	background: #1B4F80;
 	padding: 20px 0;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .constaner {
-	background: #990000;
-	border-top: #ab2408 1px solid;
+	background: #1B4F80;
+	border-top: #1B4F80 1px solid;
 	height: 52px;
 	line-height: 52px;
 
@@ -57,7 +57,7 @@
 }
 
 .nav>div:hover {
-	background-color: #990000;
+	background-color: #1B4F80;
 	color: rgb(255, 255, 255);
 }
 
@@ -76,7 +76,7 @@
 
 .menu {
 	width: 146px;
-	background-color: #990000;
+	background-color: #1B4F80;
 	display: none;
 	position: absolute;
 }

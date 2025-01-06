@@ -80,7 +80,7 @@
 }
 
 .card:hover {
-	border: rgb(255, 0, 0) 0.2em solid;
+	border: #1B4F80 0.2em solid;
 }
 
 button {
