@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>教学质量考核管理系统</title>
-<div style="background: #990000;padding: 20px 0;">
+<div style="background: #1B4F80;padding: 20px 0;">
 <img src="image/logo.png" width="524" height="102" border="0" alt="河南应用技术职业学院" title="河南应用技术职业学院"></img>
 </div>
 </head>
